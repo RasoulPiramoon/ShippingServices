@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ShippingProvider2/bin/Debug/netcoreapp3.1
+/ShippingProvider1/bin/Debug/netcoreapp3.1
+/ShippingProvider1/obj
+/ShippingProvider2/obj
+/ShippingProvider3/bin/Debug/netcoreapp3.1
+/ShippingProvider3/obj
+/ShippingService/bin/Debug/netcoreapp3.1
+/ShippingService/obj
