@@ -7,8 +7,8 @@ namespace ShippingService.Dtos
 {
     public class ShippingRequestDto
     {
-        public Address ShippingSourceAddress { get; set; }
-        public Address ShippingDestinationAddress { get; set; }
+        public string ShippingSourceAddress { get; set; }
+        public string ShippingDestinationAddress { get; set; }
         public List<ParcelDimensions> ParcelDimensions { get; set; }
 
     }

@@ -20,7 +20,7 @@ namespace ShippingService.Controllers
             this.shippingRepository = shippingRepository;
         }
 
-        public async Task<ActionResult<decimal>> GetCheapest(ShippingRequestDto dto)
+        public async Task<ActionResult<float>> GetCheapest(ShippingRequestDto dto)
         {
             try
             {

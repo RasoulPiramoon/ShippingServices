@@ -8,7 +8,7 @@ namespace ShippingService.Repository
 {
     public class ShippingRepository : IShippingRepository
     {
-        public async Task<decimal> GetCheapest(ShippingRequestDto dto)
+        public async Task<float> GetCheapest(ShippingRequestDto dto)
         {
             try
             {

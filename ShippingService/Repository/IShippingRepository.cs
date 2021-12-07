@@ -8,6 +8,6 @@ namespace ShippingService.Repository
 {
     public interface IShippingRepository
     {
-        Task<decimal> GetCheapest(ShippingRequestDto dto);
+        Task<float> GetCheapest(ShippingRequestDto dto);
     }
 }
