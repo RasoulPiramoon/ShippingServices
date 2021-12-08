@@ -20,12 +20,13 @@ namespace ShippingService.Controllers
             this.shippingRepository = shippingRepository;
         }
 
+        [HttpPost]
         public async Task<ActionResult<float>> GetCheapest(ShippingRequestDto dto)
         {
             try
             {
                 var cheapest = await shippingRepository.GetCheapest(dto);
-                return cheapest;
+                return Ok(cheapest);
             }
             catch
             {

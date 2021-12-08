@@ -9,6 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using ShippingService.Repository;
+using ShippingService.Repository.CallApiImplementation;
 
 namespace ShippingService
 {
@@ -25,6 +27,8 @@ namespace ShippingService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped<IShippingRepository, ShippingRepository>();
+            services.AddScoped<ICallApi, CallAPI1>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
