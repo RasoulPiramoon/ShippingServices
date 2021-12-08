@@ -7,9 +7,9 @@ namespace ShippingProvider3.Dtos
 {
     public class ShippingRequestDto
     {
-        public string ShippingSourceAddress { get; set; }
-        public string ShippingDestinationAddress { get; set; }
-        public List<ParcelDimensions> ParcelDimensions { get; set; }
+        public string Source { get; set; }
+        public string Destination { get; set; }
+        public List<ParcelDimension> Dimensions { get; set; }
 
     }
 }

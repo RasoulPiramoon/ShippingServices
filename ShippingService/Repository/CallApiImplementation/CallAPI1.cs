@@ -17,18 +17,18 @@ namespace ShippingService.Repository.CallApiImplementation
 {
     public class CallAPI1 : ICallApi
     {
-        public Task<float> Call()
-        {
-            throw new NotImplementedException();
-        }
+        //public Task<float> Call()
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-        public async Task<float> Call2(string path, object data)
+        public async Task<float> Call2(string path, string data)
         {
             float totalAmount = 0;
             HttpClient client = new HttpClient();
-            var jsonData = JsonSerializer.Serialize(data);
-            var jsonData2 = JsonSerializer.SerializeToUtf8Bytes(data);
-            var stringData = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            //var jsonData = JsonSerializer.Serialize(data);
+            ////var jsonData2 = JsonSerializer.SerializeToUtf8Bytes(data);
+            var stringData = new StringContent(data, Encoding.UTF8, "application/json");
             var response = await client.PostAsync(path, stringData);
             if (!response.IsSuccessStatusCode)
                 totalAmount = - 1;
@@ -42,17 +42,17 @@ namespace ShippingService.Repository.CallApiImplementation
             return totalAmount;
         }
 
-        public async Task<float> Call3(string path, object data)
+        public async Task<float> Call3(string path, string xmlData)
         {
             float totalAmount = 0;
             HttpClient client = new HttpClient();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/xml"));
-            string xmlData = string.Empty;
-            using (var writer = new StringWriterWithEncoding(Encoding.UTF8))
-            {
-                new XmlSerializer(data.GetType()).Serialize(writer, data);
-                xmlData = writer.ToString();
-            }
+            //string xmlData = string.Empty;
+            //using (var writer = new StringWriterWithEncoding(Encoding.UTF8))
+            //{
+            //    new XmlSerializer(data.GetType()).Serialize(writer, data);
+            //    xmlData = writer.ToString();
+            //}
             var stringData = new StringContent(xmlData, Encoding.UTF8, "application/xml");
             var response = await client.PostAsync(path, stringData);
             if (!response.IsSuccessStatusCode)
