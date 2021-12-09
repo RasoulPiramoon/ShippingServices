@@ -7,7 +7,8 @@ namespace ShippingService.Repository
 {
     public interface ICallApi
     {
-        Task<float> Call();
-        Task<float> Call2(string path, object data);
+        //Task<float> Call();
+        Task<float> Call2(string path, string data);
+        Task<float> Call3(string path, string data);
     }
 }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ShippingService.Dtos
+namespace ShippingProvider1.Dtos
 {
-    public class ParcelDimensions
+    public class ParcelDimension
     {
         public float Weight { get; set; }
         public float Length { get; set; }
