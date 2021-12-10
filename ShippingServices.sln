@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingProvider2", "ShippingProvider2\ShippingProvider2.csproj", "{2341D5F4-2D4E-4499-BFC7-91483C32378D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShippingProvider2", "ShippingProvider2\ShippingProvider2.csproj", "{2341D5F4-2D4E-4499-BFC7-91483C32378D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingProvider3", "ShippingProvider3\ShippingProvider3.csproj", "{CEBBFD57-B495-474B-A098-C5E45C10620A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShippingProvider3", "ShippingProvider3\ShippingProvider3.csproj", "{CEBBFD57-B495-474B-A098-C5E45C10620A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingProvider1", "ShippingProvider1\ShippingProvider1.csproj", "{6C7FD1A1-B969-4B84-AA6E-0D6CE4C1A60F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShippingProvider1", "ShippingProvider1\ShippingProvider1.csproj", "{6C7FD1A1-B969-4B84-AA6E-0D6CE4C1A60F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingService", "ShippingService\ShippingService.csproj", "{2BFE3D3B-EA41-4A2E-BC38-72A9D1195272}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShippingService", "ShippingService\ShippingService.csproj", "{2BFE3D3B-EA41-4A2E-BC38-72A9D1195272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{608C3B53-63AA-41DC-8DD1-4D92C869281A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2BFE3D3B-EA41-4A2E-BC38-72A9D1195272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BFE3D3B-EA41-4A2E-BC38-72A9D1195272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BFE3D3B-EA41-4A2E-BC38-72A9D1195272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{608C3B53-63AA-41DC-8DD1-4D92C869281A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{608C3B53-63AA-41DC-8DD1-4D92C869281A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{608C3B53-63AA-41DC-8DD1-4D92C869281A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{608C3B53-63AA-41DC-8DD1-4D92C869281A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

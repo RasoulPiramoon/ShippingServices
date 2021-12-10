@@ -14,6 +14,8 @@ namespace ShippingService.Dtos
         public string ShippingSourceAddress { get; set; }
         public string ShippingDestinationAddress { get; set; }
         public List<ParcelDimension> ParcelDimensions { get; set; }
+
+
         public string GetJson()
         {
             return JsonSerializer.Serialize(this);

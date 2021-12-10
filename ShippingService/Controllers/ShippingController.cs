@@ -26,7 +26,10 @@ namespace ShippingService.Controllers
             try
             {
                 var cheapest = await shippingRepository.GetCheapest(dto);
-                return Ok(cheapest);
+                if (cheapest >= 0)
+                    return Ok(cheapest);
+                else
+                    return BadRequest("Services have error");
             }
             catch
             {

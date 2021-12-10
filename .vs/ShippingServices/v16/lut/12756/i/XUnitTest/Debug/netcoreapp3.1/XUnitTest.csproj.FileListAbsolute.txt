@@ -1,0 +1,16 @@
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\XUnitTest\Debug\netcoreapp3.1\appsettings.Development.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\XUnitTest\Debug\netcoreapp3.1\appsettings.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\XUnitTest\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\XUnitTest\Debug\netcoreapp3.1\ShippingService.exe
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\XUnitTest\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\XUnitTest\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\XUnitTest\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\XUnitTest\Debug\netcoreapp3.1\XUnitTest.deps.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\XUnitTest\Debug\netcoreapp3.1\XUnitTest.runtimeconfig.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\XUnitTest\Debug\netcoreapp3.1\XUnitTest.runtimeconfig.dev.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\XUnitTest\Debug\netcoreapp3.1\XUnitTest.dll
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\XUnitTest\Debug\netcoreapp3.1\XUnitTest.AssemblyInfoInputs.cache
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\XUnitTest\Debug\netcoreapp3.1\XUnitTest.AssemblyInfo.cs
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\XUnitTest\Debug\netcoreapp3.1\XUnitTest.csproj.CopyComplete
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\XUnitTest\Debug\netcoreapp3.1\XUnitTest.dll
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\XUnitTest\Debug\netcoreapp3.1\XUnitTest.genruntimeconfig.cache

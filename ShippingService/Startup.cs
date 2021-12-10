@@ -28,7 +28,7 @@ namespace ShippingService
         {
             services.AddControllers();
             services.AddScoped<IShippingRepository, ShippingRepository>();
-            services.AddScoped<ICallApi, CallAPI1>();
+            services.AddScoped<ICallApi, CallAPI>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,7 +41,7 @@ namespace ShippingService
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            //app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace ShippingService.Controllers
+{
+    [Route("[controller]")]
+    [ApiController]
+    public class HomeController : ControllerBase
+    {
+        public ActionResult get() => Ok("Application is ready!");
+    }
+}

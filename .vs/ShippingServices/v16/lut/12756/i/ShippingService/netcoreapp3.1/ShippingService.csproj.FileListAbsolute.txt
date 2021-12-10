@@ -1,0 +1,16 @@
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\ShippingService\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\ShippingService\bin\Debug\netcoreapp3.1\appsettings.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\ShippingService\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\ShippingService\bin\Debug\netcoreapp3.1\ShippingService.exe
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\ShippingService\bin\Debug\netcoreapp3.1\ShippingService.deps.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\ShippingService\bin\Debug\netcoreapp3.1\ShippingService.runtimeconfig.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\ShippingService\bin\Debug\netcoreapp3.1\ShippingService.runtimeconfig.dev.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\ShippingService\bin\Debug\netcoreapp3.1\ShippingService.dll
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\ShippingService\netcoreapp3.1\ShippingService.AssemblyInfoInputs.cache
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\ShippingService\netcoreapp3.1\ShippingService.AssemblyInfo.cs
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\ShippingService\netcoreapp3.1\ShippingService.RazorTargetAssemblyInfo.cache
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\ShippingService\netcoreapp3.1\ShippingService.csproj.CopyComplete
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\ShippingService\netcoreapp3.1\staticwebassets\ShippingService.StaticWebAssets.Manifest.cache
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\ShippingService\netcoreapp3.1\staticwebassets\ShippingService.StaticWebAssets.xml
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\ShippingService\netcoreapp3.1\ShippingService.dll
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\ShippingService\netcoreapp3.1\ShippingService.genruntimeconfig.cache

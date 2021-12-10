@@ -1,0 +1,16 @@
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\ShippingProvider2\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\ShippingProvider2\bin\Debug\netcoreapp3.1\appsettings.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\ShippingProvider2\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\ShippingProvider2\bin\Debug\netcoreapp3.1\ShippingProvider2.exe
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\ShippingProvider2\bin\Debug\netcoreapp3.1\ShippingProvider2.deps.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\ShippingProvider2\bin\Debug\netcoreapp3.1\ShippingProvider2.runtimeconfig.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\ShippingProvider2\bin\Debug\netcoreapp3.1\ShippingProvider2.runtimeconfig.dev.json
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\b\ShippingProvider2\bin\Debug\netcoreapp3.1\ShippingProvider2.dll
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\ShippingProvider2\netcoreapp3.1\ShippingProvider2.AssemblyInfoInputs.cache
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\ShippingProvider2\netcoreapp3.1\ShippingProvider2.AssemblyInfo.cs
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\ShippingProvider2\netcoreapp3.1\ShippingProvider2.RazorTargetAssemblyInfo.cache
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\ShippingProvider2\netcoreapp3.1\ShippingProvider2.csproj.CopyComplete
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\ShippingProvider2\netcoreapp3.1\staticwebassets\ShippingProvider2.StaticWebAssets.Manifest.cache
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\ShippingProvider2\netcoreapp3.1\staticwebassets\ShippingProvider2.StaticWebAssets.xml
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\ShippingProvider2\netcoreapp3.1\ShippingProvider2.dll
+D:\MyApp\ShippingServices\.vs\ShippingServices\v16\lut\0\i\ShippingProvider2\netcoreapp3.1\ShippingProvider2.genruntimeconfig.cache
