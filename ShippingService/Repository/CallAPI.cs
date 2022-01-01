@@ -17,23 +17,26 @@ namespace ShippingService.Repository.CallApiImplementation
 {
     public class CallAPI : ICallApi
     {
+        private readonly HttpClient httpClient;
+
+        public CallAPI(HttpClient httpClient)
+        {
+            this.httpClient = httpClient;
+        }
         public async Task<float> CallAsJson(string path, string data)
         {
             float totalAmount = 0;
             try
             {
-                using (HttpClient client = new HttpClient())
+                var stringData = new StringContent(data, Encoding.UTF8, "application/json");
+                var response = await httpClient.PostAsync(path, stringData);
+                if (!response.IsSuccessStatusCode)
+                    totalAmount = -1;
+                else
                 {
-                    var stringData = new StringContent(data, Encoding.UTF8, "application/json");
-                    var response = await client.PostAsync(path, stringData);
-                    if (!response.IsSuccessStatusCode)
-                        totalAmount = -1;
-                    else
-                    {
-                        var result = await response.Content.ReadAsStringAsync();
-                        var isSuccess = float.TryParse(result, out totalAmount);
-                        totalAmount = isSuccess ? totalAmount : -1;
-                    }
+                    var result = await response.Content.ReadAsStringAsync();
+                    var isSuccess = float.TryParse(result, out totalAmount);
+                    totalAmount = isSuccess ? totalAmount : -1;
                 }
             }
             catch (Exception ex)
@@ -50,20 +53,18 @@ namespace ShippingService.Repository.CallApiImplementation
             float totalAmount = 0;
             try
             {
-                using (HttpClient client = new HttpClient())
+                httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/xml"));
+                var stringData = new StringContent(xmlData, Encoding.UTF8, "application/xml");
+                var response = await httpClient.PostAsync(path, stringData);
+                if (!response.IsSuccessStatusCode)
+                    totalAmount = -1;
+                else
                 {
-                    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/xml"));
-                    var stringData = new StringContent(xmlData, Encoding.UTF8, "application/xml");
-                    var response = await client.PostAsync(path, stringData);
-                    if (!response.IsSuccessStatusCode)
-                        totalAmount = -1;
-                    else
-                    {
-                        XDocument xdoc = XDocument.Parse(response.Content.ReadAsStringAsync().Result);
-                        var elem = ((System.Xml.Linq.XElement)xdoc.FirstNode).Value;
-                        var isSuccess = float.TryParse(elem, out totalAmount);
-                        totalAmount = isSuccess ? totalAmount : -1;
-                    }
+                    var reg = await response.Content.ReadAsStringAsync();
+                    XDocument xdoc = XDocument.Parse(await response.Content.ReadAsStringAsync());
+                    var elem = ((System.Xml.Linq.XElement)xdoc.FirstNode).Value;
+                    var isSuccess = float.TryParse(elem, out totalAmount);
+                    totalAmount = isSuccess ? totalAmount : -1;
                 }
             }
             catch (Exception ex)
